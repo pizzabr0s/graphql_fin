@@ -1,9 +1,9 @@
-Instructions to run the server on port: 4000
+# How to run the Apollo Server to test the API
 
 1. npm install
 2. npm start
 
-Sample querys to use for testing server:
+## Sample querys to use for testing server:
 
 1. 
 
