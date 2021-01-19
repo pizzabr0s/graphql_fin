@@ -7,23 +7,23 @@
 
 1. 
 
-query { 
-    postById(id: "20") 
-    { user topic body comments 
-    } 
-}
+        query { 
+            postById(id: "20") 
+            { user topic body comments 
+            } 
+        }
 
 2. 
 
-query { 
-    postListByTopic(topic: "Weather") 
-    {id user body comments
-    } 
-}
+        query { 
+            postListByTopic(topic: "Weather") 
+            {id user body comments
+            } 
+        }
 
 3. 
 
-mutation {
-    newPost (id: "111", user: "Curtis", topic: "Jobs", body: "Who is hiring these days?", comments: "Microsoft.",) {id user topic body comments}
-}
+        mutation {
+            newPost (id: "111", user: "Curtis", topic: "Jobs", body: "Who is hiring these days?", comments: "Microsoft.",) {id user topic body comments}
+        }
 
